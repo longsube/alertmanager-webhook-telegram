@@ -52,7 +52,7 @@ Running on docker
     	-e "chatid=telegramChatID" \
     	-e "username=<username>" \
     	-e "password=<password>" \
-    	-p 9119:9119 alertmanager-webhook-telegram:1.0
+    	-p 9119:9119 longsube/alertmanager-webhook-telegram:1.0
 
 > make sure set proper username and password when you exposing your app on internet
 
